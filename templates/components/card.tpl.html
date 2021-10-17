@@ -1,0 +1,10 @@
+<component name="shadowed-card" shadowed="true" data-title="{{title}}" data-description="{{description}}" data-image="{{image}}" data-price="{{price}}">
+
+    <img slot="logo" src="img/{{image}}" alt="Avatar" style="width:100%">
+    <b slot="card_title" style="display:grid; grid-template-columns: 100%;padding:10px;bottom:0;margin-left:40%;">{{title}}</b>
+    <div slot="card_description" style="display:grid; grid-template-columns: 100%;padding:10px;bottom:0;">{{description}}</div>
+    <div slot="card-button" style="display:grid; grid-template-columns: 35% 15% 50%;padding:10px;bottom:0;">
+        <p style="float:left">Like What You See? </p>
+        <div></div><button onclick="location.href='/qco/{{title}}'" style="float:right;padding:8px;bottom:0;">VIEW NOW</button></div>
+
+</component>
